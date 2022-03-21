@@ -1,9 +1,9 @@
 # CurrencyConverter
 
-CurrencyConverter is a script to indicate the conversion rates of different currencies in a popup message.
-Initially, this is developed to check the conversion rates from SEK to INR and to achieve this, we have took TransferWise website as a reference.
+>CurrencyConverter is a script that indicates the conversion rates of different currencies in a popup message. <br />
+>This is primarly developed to check the conversion rates from SEK to INR.<br />
 
-I hope we can use this script for other currencies as well by changing some parameters (from_currency, to_currency and corresponding url) in conversion_details.json file,and it is successfully tested for SEK to INR conversions.
+Hope we can use this script for other currency conversions as well by changing from_currency, to_currency and url params in conversion_details.json file.
 
 {
 	
