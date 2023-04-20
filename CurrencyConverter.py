@@ -1,9 +1,11 @@
-import urllib.request
-import time
-import tkinter as tk
 import sys
-from beautiful_soup import HTMLfilter
 import json
+import time
+import urllib.request
+import tkinter as tk
+
+from beautiful_soup import HTMLfilter
+
 
 class CurrecyConversionIndicator(object):
     input_data = {}
