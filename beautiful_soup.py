@@ -1,7 +1,8 @@
 import re
 import urllib.request
-class HTMLfilter(object):
 
+
+class HTMLfilter(object):
     def get_end(self, tags, keyword):
         end_tag = keyword.split()[0].replace("<", "</")
         if not end_tag.endswith(">"):
